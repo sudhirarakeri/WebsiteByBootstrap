@@ -1,0 +1,77 @@
+﻿
+.Menu {
+    background-color: #4C412B;
+}
+.nav-link {
+    color: azure;
+}
+.nav-link:hover{
+    color:burlywood;
+}
+
+.content{
+    width:95%;
+}
+.content .row{
+    margin-top:10px;
+}
+.content .card{
+    width:100% !important;
+    box-shadow:2px 5px 5px skyblue;
+}
+.footer {
+    margin-top: 20px;
+    background-color: #EAECEE;
+}
+.fa-facebook-square, .fa-twitter {
+    color: #0636B3;
+}
+.fa-instagram {
+    color: #FB382B;
+}
+.banner{
+    position:center;
+}
+.col-md-4{
+    margin-top:20px;
+}
+.flex-column {
+    background-color: #EAECEE;
+}
+@media only screen and (min-device-width:320px) and (max-device-width:480px) {
+    .content .card {
+        width: 50%;
+        box-shadow: 2px 5px 5px skyblue;
+        margin-top:15px;
+    }
+    .footer {
+        margin-top: 20px;
+        background-color: #EAECEE;
+    }
+    .col-md-4 {
+        margin-top: -1px;
+    }
+    .fa-facebook-square {
+        padding-left: 15px;
+        margin-top: 1px;
+    }
+    p {
+        padding-left: 15px;
+        margin-top: 1px;
+    }
+}
+
+@media only screen and (min-device-width:768px) and (max-device-width:1020px) {
+    .content .card {
+        width: 100%;
+        box-shadow: 2px 5px 5px skyblue;
+        margin-top: 15px;
+        font-size:12px;
+    }
+    .content {
+        width: 100%;
+    }
+    .btn {
+        font-size: 14.5px;
+    }
+}

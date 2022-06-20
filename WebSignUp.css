@@ -1,0 +1,13 @@
+﻿body
+{
+    background-image:url('sign2.jpg');
+    background-size:cover;
+}
+.col-md-5 {
+    margin-top: 60px;
+    padding:20px;
+    color:azure;
+}
+.navbar-nav .btn-primary {
+    margin-left:740px;
+}
